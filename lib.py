@@ -441,11 +441,12 @@ class CudaProblem:
             "DKLBJh7",
             "eyxH0Wc",
             "rJEkEw4"]
-            return HTML("""
-            <video alt="test" controls autoplay=1>
-                <source src="https://openpuppies.com/mp4/%s.mp4"  type="video/mp4">
-            </video>
-            """%(random.sample(pups, 1)[0]))
+            print('OK!')
+            #return HTML("""
+            #<video alt="test" controls autoplay=1>
+            #    <source src="https://openpuppies.com/mp4/%s.mp4"  type="video/mp4">
+            #</video>
+            #"""%(random.sample(pups, 1)[0]))
             
         except AssertionError:
             print("Failed Tests.")
